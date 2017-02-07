@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/*
+	orange = rgb(236,117,38);
+	blue = rgb(54,140,143);
+	light-orange = rgb(244,177,116);
+	lightBlue = rgb(77,152,155);
+*/
+a{
+        color: rgb(77,152,155);
+}
+
+#main{
+	color: rgb(150,150,150);
+}
+#main img{
+	width: 100%;
+	max-width: 300px;
+	box-shadow: 0 0 2px rgba(0,0,0,0.3);
+}
+
+.titre{
+	padding: 25px 0px 20px 0px;
+	margin-bottom: 40px;
+	background-color: rgba(244,177,116,.75);
+	color: white;
+}
+
+#cover img{
+	display: block;
+	margin: auto;
+	margin-bottom: 15px;
+}
+.contact-revue{
+        display: block;
+	word-break: break-all;
+	text-align: left;
+	font-size: 12px;
+}.contact-revue a{ color: rgb(77,152,155);}
+.contact-revue-master{
+        padding: 15px 10px 0 0;
+	word-break: normal;
+	font-size: 14px;
+}
+#baseline{
+	text-align: justify;
+	font-weight: lighter;
+	font-size: 21px;
+}
+#revue-data{
+	margin: 30px 0 30px 0;
+	text-align: left;
+}
+.data-slot{
+	padding: 3px 0 3px 0;
+}.data-result{
+	color: rgb(244,177,116);
+}
+#modal-btn{
+	padding: 20px;
+}
+#presentation-revue{
+        padding-right: 20px;
+	margin-bottom: 30px;
+        text-align: justify;
+        line-height: 25px;
+        letter-spacing: 1.5px;
+        font-size: 15px;
+}
+
+#revues-univers{
+}
+#revues-univers h3{
+	margin-top: 0;
+	color: rgb(150,150,150);
+	letter-spacing: 1.5px;
+	font-size: 15px;
+}
+.revue-univers img{
+	display: inline-block;
+	margin-top: 18px;
+	box-shadow: 0 0 2px rgba(0,0,0,0.3);
+}
+
+.modal-body{
+	padding: 20px;
+}
+
+@media screen and (max-width: 768px){
+	#cover img{
+		margin-bottom: 40px;
+	}
+	#baseline{
+		width: 80%;
+		margin: auto;
+		text-align: center;	
+	}
+}
+
+
